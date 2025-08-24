@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="fixed top-6 left-6 w-full text-white p-4 z-50">
       <div className="flex items-center justify-between">
-      <a href="/" className="text-white font-bad-script text-[20px]">
+        <a href="/" className="text-white font-bad-script text-[20px]">
           Karina Lorenzo
         </a>
         <button
@@ -24,12 +24,10 @@ const Header = () => {
           <a href="/projects">Proyectos</a>
           <a href="/contact">Contacto</a>
         </nav>
-        
-       
       </div>
 
       {menuOpen && (
-        <nav className="flex flex-col gap-4 mt-4 font-averia font-bold text-sm md:hidden">
+        <nav className="absolute top-14 right-4 bg-black/80 rounded-xl px-6 py-4 flex flex-col gap-4 font-averia font-bold text-sm md:hidden shadow-lg z-50">
           <a href="/about" onClick={() => setMenuOpen(false)}>
             Sobre mí
           </a>
