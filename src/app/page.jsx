@@ -7,7 +7,7 @@ export default function Home() {
         Frontend Developer
       </h2>
 
-      <p className="text-white font-averia font-bold text-2xl md:text-3xl mb-6">
+      <p className="text-white font-averia font-bold md:text-2xl mb-6">
         En evolución
       </p>
 
