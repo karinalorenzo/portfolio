@@ -29,6 +29,9 @@ const badScript = Bad_Script({
 export const metadata = {
   title: "Karina L.",
   description: "Created with love",
+  icons: {
+    icon: "/k-solid-full.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -8,12 +8,13 @@ export default function About() {
         Welcome to my world!
       </h2>
 
-      <div className="w-full h-full overflow-y-auto text-white text-justify text-[28px] font-bold break-words font-['Averia_Serif_Libre'] p-2">
+      <div className="w-full h-full overflow-y-auto text-white text-justify text-[18px] font-bold break-words font-['Averia_Serif_Libre'] p-2">
         <p>
           Soy una persona organizada, curiosa y con muchas ganas de crecer en el
-          mundo del Desarrollo Web. Aunque aún no tengo experiencia profesional,
-          estoy completamente enfocada en conseguir mi primera oportunidad para
-          seguir aprendiendo y aportar valor desde el primer día.
+          mundo del Desarrollo Web. Aunque aún no tengo experiencia profesional
+          todavía, estoy completamente enfocada en conseguir mi primera
+          oportunidad para seguir aprendiendo y aportar valor y pasión desde el
+          primer día.
         </p>
         <br />
         <p>

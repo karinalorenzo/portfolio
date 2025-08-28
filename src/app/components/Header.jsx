@@ -9,7 +9,7 @@ const Header = () => {
     <header className="fixed top-6 left-6 w-full text-white p-4 z-50">
       <div className="flex items-center justify-between">
         <a href="/" className="text-white font-bad-script text-[20px]">
-          Karina Lorenzo
+          K. R
         </a>
         <button
           className="md:hidden mr-4"
