@@ -32,6 +32,13 @@ export default function About() {
           backend, ya que me permite tener una visión global y comunicarme mejor
           dentro de un equipo técnico.
         </p>
+        <p>
+          Además, tengo experiencia previa Auxiliar Administrativo,
+          donde desarrollé habilidades de comunicación, empatía y resolución de
+          problemas. Creo que estas competencias son muy valiosas para
+          entender las necesidades del usuario y crear soluciones que realmente
+          les aporten valor.
+        </p>
         <br />
         <p>
           Me entusiasma enfrentar retos, proponer ideas creativas y formar parte
