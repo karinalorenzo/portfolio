@@ -39,8 +39,7 @@ export default function About() {
       <div
         className="absolute inset-0 bg-cover bg-center -z-10"
         style={{ backgroundImage: "url('/lion.jpg')" }}
-      >
-      </div>
+      ></div>
 
       <h2 className="text-white font-averia font-bold text-4xl md:text-6xl mb-10 z-20">
         Lo que me inspira
@@ -63,12 +62,16 @@ export default function About() {
           {inspirations.map((item, idx) => (
             <SwiperSlide key={idx} style={{ background: "transparent" }}>
               <div className="bg-transparent bg-opacity-10 backdrop-blur-md rounded-[16px] shadow-lg overflow-hidden flex flex-col items-center p-4 transition-transform transform hover:scale-105">
-                <img
-                  src={item.src}
-                  alt={item.title}
-                  className="w-full h-56 object-cover rounded-xl mb-4"
-                />
-                <h3 className="text-white font-bold text-lg">{item.title}</h3>
+                <div className="w-full h-56">
+                  <img
+                    src={item.src}
+                    alt={item.title}
+                    className="w-full h-full object-cover rounded-xl"
+                  />
+                </div>
+                <h3 className="text-white font-bold text-lg mt-4">
+                  {item.title}
+                </h3>
               </div>
             </SwiperSlide>
           ))}

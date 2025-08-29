@@ -11,14 +11,14 @@ export default function About() {
       <div className="w-full h-full overflow-y-auto text-white text-justify text-[18px] font-bold break-words font-['Averia_Serif_Libre'] p-2">
         <p>
           Soy una persona organizada, curiosa y con muchas ganas de crecer en el
-          mundo del Desarrollo Web. Aunque aún no tengo experiencia profesional
+          mundo del Desarrollo Web. Aunque no tengo experiencia profesional
           todavía, estoy completamente enfocada en conseguir mi primera
           oportunidad para seguir aprendiendo y aportar valor y pasión desde el
           primer día.
         </p>
         <br />
         <p>
-          Recientemente completé un Bootcamp Fullstack de 1100 horas en Factoría
+          Recientemente completé un Bootcamp Fullstack de 1100 horas (7 meses) en Factoría
           F5, donde aprendí a manejar tecnologías como HTML, CSS, JavaScript,
           React, Java y Spring Boot. Durante esta experiencia también trabajé
           con metodologías ágiles como Scrum y testing con TDD.
@@ -32,6 +32,7 @@ export default function About() {
           backend, ya que me permite tener una visión global y comunicarme mejor
           dentro de un equipo técnico.
         </p>
+
         <p>
           Además, tengo experiencia previa Auxiliar Administrativo,
           donde desarrollé habilidades de comunicación, empatía y resolución de
@@ -40,9 +41,14 @@ export default function About() {
           les aporten valor.
         </p>
         <br />
+
+        <p>
+          Me gusta la fotografía, el diseño, los fondos pasteles, el arte, la literatura, historia, la música de otra época, los leones, la naturaleza y el mar.
+        </p>
+        <br />
         <p>
           Me entusiasma enfrentar retos, proponer ideas creativas y formar parte
-          de equipos donde se valore tanto el aprendizaje como la colaboración.
+          de equipos donde se valore tanto el apreandizaje como la colaboración.
           Estoy lista para empezar, crecer y aportar.
           <br />
           <a href="https://www.linkedin.com/in/karina-lorenzo/" target="_blank">
