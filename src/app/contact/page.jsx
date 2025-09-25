@@ -7,7 +7,7 @@ export default function About() {
       ></div>
 
       <h2 className="text-white font-averia font-bold text-2xl md:text-4xl mb-10 z-20">
-        “¿Buscas una persona comprometida, organizada y con pasión por el
+        ¿Buscas una persona comprometida, organizada y con pasión por el
         Desarrollo Web?
       </h2>
       <h2 className="text-white font-averia font-bold text-2xl md:text-4xl mb-10 z-20 underline">
