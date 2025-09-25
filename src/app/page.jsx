@@ -11,8 +11,8 @@ export default function Home() {
         En evolución
       </p>
 
-      <p className="text-white font-averia font-bold text-lg md:text-2xl lg:text-3xl max-w-xl">
-        Hago lo que amo para que otros encuentren algo que amar también
+      <p className="text-white font-averia font-bad-script text-lg md:text-2xl lg:text-4xl max-w-xl">
+        Hago lo que amo para que otros encuentren algo que amar
       </p>
     </section>
   );

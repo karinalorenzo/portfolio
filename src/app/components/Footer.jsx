@@ -1,4 +1,4 @@
-import { Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,6 +18,14 @@ const Footer = () => {
         aria-label="LinkedIn"
       >
         <Linkedin size={25} />
+      </a>
+      <a
+        href="https://github.com/karinalorenzo"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+      >
+        <Github size={25} />
       </a>
     </footer>
   );

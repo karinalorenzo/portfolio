@@ -10,40 +10,45 @@ export default function About() {
 
       <div className="w-full h-full overflow-y-auto text-white text-justify text-[18px] font-bold break-words font-['Averia_Serif_Libre'] p-2">
         <p>
-          Soy una persona organizada, curiosa y con muchas ganas de crecer en el
-          mundo del Desarrollo Web. Aunque no tengo experiencia profesional
-          todavía, estoy completamente enfocada en conseguir mi primera
-          oportunidad para seguir aprendiendo y aportar valor y pasión desde el
-          primer día.
+          Soy una persona comprometida, creativa y con gran capacidad de
+          aprendizaje. Me considero puntual, organizada y disfruto resolviendo
+          problemas de manera práctica y colaborativa. Aunque todavía no cuento
+          con experiencia profesional en el mundo del Desarrollo Web, estoy
+          enfocada en conseguir mi primera oportunidad laboral para seguir
+          creciendo y aportar valor desde el primer día.
         </p>
         <br />
         <p>
-          Recientemente completé un Bootcamp Fullstack de 1100 horas (7 meses) en Factoría
-          F5, donde aprendí a manejar tecnologías como HTML, CSS, JavaScript,
-          React, Java y Spring Boot. Durante esta experiencia también trabajé
-          con metodologías ágiles como Scrum y testing con TDD.
+          Recientemente completé un Bootcamp Fullstack de 1100 horas (7 meses)
+          en Factoría F5, donde trabajé con tecnologías como HTML, CSS,
+          JavaScript, React, Java y Spring Boot. También aprendí metodologías
+          ágiles como Scrum y prácticas de testing con TDD, lo que me permitió
+          desarrollar disciplina, adaptabilidad y capacidad multitarea en
+          entornos colaborativos.
         </p>
         <br />
         <p>
-          Descubrí que tengo una afinidad especial con la parte del diseño y el
-          frontend: disfruto cuidando los detalles visuales, creando interfaces
-          intuitivas y transmitiendo emociones a través del código. Aun así, me
-          alegra profundamente haber adquirido conocimientos también del
-          backend, ya que me permite tener una visión global y comunicarme mejor
-          dentro de un equipo técnico.
+          Durante mi formación descubrí que tengo una afinidad especial con el
+          diseño y el frontend: disfruto cuidando los detalles visuales, creando
+          interfaces intuitivas y transmitiendo emociones a través del código.
+          Al mismo tiempo, el aprendizaje del backend me permitió adquirir una
+          visión global y mejorar la comunicación con equipos técnicos diversos.
         </p>
-
+        <br />
         <p>
-          Además, tengo experiencia previa Auxiliar Administrativo,
+          Además, cuento con experiencia previa como Auxiliar Administrativo,
           donde desarrollé habilidades de comunicación, empatía y resolución de
-          problemas. Creo que estas competencias son muy valiosas para
-          entender las necesidades del usuario y crear soluciones que realmente
-          les aporten valor.
+          problemas. Estoy convencida de que estas competencias son clave para
+          comprender las necesidades de los usuarios y crear soluciones
+          digitales que realmente les aporten valor.
         </p>
+
         <br />
 
         <p>
-          Me gusta la fotografía, el diseño, los fondos pasteles, el arte, la literatura, historia, la música de otra época, los leones, la naturaleza y el mar.
+          Me gusta la fotografía, el diseño, los fondos pasteles, el arte, la
+          literatura, historia, la música de otra época, los leones, la
+          naturaleza y el mar.
         </p>
         <br />
         <p>

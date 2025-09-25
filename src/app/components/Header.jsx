@@ -18,26 +18,50 @@ const Header = () => {
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        <nav className="hidden md:flex gap-12 font-averia font-bold text-sm mr-8">
-          <a href="/about">Sobre mí</a>
-          <a href="/inspiration">Lo que me inspira</a>
-          <a href="/projects">Proyectos</a>
-          <a href="/contact">Contacto</a>
+        <nav className="hidden md:flex gap-12 font-averia font-bold text-sm mr-8 ">
+          <a
+            href="/about"
+            className="hover:transform hover:scale-105 transition"
+          >
+            ¿Quién soy?
+          </a>
+          <a
+            href="/inspiration"
+            className="hover:transform hover:scale-105 transition"
+          >
+            Lo que me inspira
+          </a>
+          <a
+            href="/contact"
+            className="hover:transform hover:scale-105 transition"
+          >
+            Contacto
+          </a>
         </nav>
       </div>
 
       {menuOpen && (
         <nav className="absolute top-14 right-4 bg-black/80 rounded-xl px-6 py-4 flex flex-col gap-4 font-averia font-bold text-sm md:hidden shadow-lg z-50">
-          <a href="/about" onClick={() => setMenuOpen(false)}>
+          <a
+            href="/about"
+            onClick={() => setMenuOpen(false)}
+            className="hover:underline transition"
+          >
             Sobre mí
           </a>
-          <a href="/inspiration" onClick={() => setMenuOpen(false)}>
+          <a
+            href="/inspiration"
+            onClick={() => setMenuOpen(false)}
+            className="hover:underline transition"
+          >
             Lo que me inspira
           </a>
-          <a href="/projects" onClick={() => setMenuOpen(false)}>
-            Proyectos
-          </a>
-          <a href="/contact" onClick={() => setMenuOpen(false)}>
+
+          <a
+            href="/contact"
+            onClick={() => setMenuOpen(false)}
+            className="hover:underline transition"
+          >
             Contacto
           </a>
         </nav>
